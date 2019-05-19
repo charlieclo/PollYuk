@@ -3,6 +3,12 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import Buefy from 'buefy'
+import 'buefy/dist/buefy.css'
+import Vuex from 'vuex'
+
+Vue.use(Vuex)
+Vue.use(Buefy)
 
 Vue.config.productionTip = false
 
